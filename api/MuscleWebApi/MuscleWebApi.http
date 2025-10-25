@@ -1,0 +1,6 @@
+@MuscleWebApi_HostAddress = http://localhost:5108
+
+GET {{MuscleWebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

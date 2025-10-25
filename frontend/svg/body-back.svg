@@ -1,0 +1,66 @@
+<svg width="400" height="700" viewBox="0 0 400 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Back View Body Diagram -->
+  
+  <!-- Head (back of head) -->
+  <ellipse cx="200" cy="50" rx="35" ry="45" fill="#f0d0b0" stroke="#333" stroke-width="2"/>
+  
+  <!-- Neck -->
+  <rect x="185" y="90" width="30" height="30" fill="#f0d0b0" stroke="#333" stroke-width="2"/>
+  
+  <!-- Traps (Upper/Mid/Lower) - Muscle Group ID: 8 -->
+  <path d="M 160 115 L 140 140 L 150 180 L 200 165 L 250 180 L 260 140 L 240 115 L 200 125 Z" fill="#a29bfe" stroke="#333" stroke-width="2" class="muscle-group" data-muscle-id="8"/>
+  
+  <!-- Rear Deltoids - Muscle Group ID: 9 -->
+  <ellipse cx="135" cy="145" rx="30" ry="22" fill="#fd79a8" stroke="#333" stroke-width="2" class="muscle-group" data-muscle-id="9"/>
+  <ellipse cx="265" cy="145" rx="30" ry="22" fill="#fd79a8" stroke="#333" stroke-width="2" class="muscle-group" data-muscle-id="9"/>
+  
+  <!-- Lats (Latissimus Dorsi) - Muscle Group ID: 10 -->
+  <path d="M 150 180 Q 135 220 145 260 L 165 280 L 180 240 Z" fill="#74b9ff" stroke="#333" stroke-width="2" class="muscle-group" data-muscle-id="10"/>
+  <path d="M 250 180 Q 265 220 255 260 L 235 280 L 220 240 Z" fill="#74b9ff" stroke="#333" stroke-width="2" class="muscle-group" data-muscle-id="10"/>
+  
+  <!-- Triceps - Muscle Group ID: 12 -->
+  <ellipse cx="115" cy="185" rx="16" ry="40" fill="#fab1a0" stroke="#333" stroke-width="2" class="muscle-group" data-muscle-id="12"/>
+  <ellipse cx="285" cy="185" rx="16" ry="40" fill="#fab1a0" stroke="#333" stroke-width="2" class="muscle-group" data-muscle-id="12"/>
+  
+  <!-- Forearms (back view) -->
+  <ellipse cx="110" cy="250" rx="15" ry="35" fill="#ffb3b3" stroke="#333" stroke-width="2"/>
+  <ellipse cx="290" cy="250" rx="15" ry="35" fill="#ffb3b3" stroke="#333" stroke-width="2"/>
+  
+  <!-- Hands -->
+  <ellipse cx="107" cy="295" rx="12" ry="18" fill="#f0d0b0" stroke="#333" stroke-width="2"/>
+  <ellipse cx="293" cy="295" rx="12" ry="18" fill="#f0d0b0" stroke="#333" stroke-width="2"/>
+  
+  <!-- Lower Back - Muscle Group ID: 11 -->
+  <rect x="170" y="240" width="60" height="80" rx="8" fill="#55efc4" stroke="#333" stroke-width="2" class="muscle-group" data-muscle-id="11"/>
+  
+  <!-- Back of torso -->
+  <rect x="160" y="200" width="80" height="120" fill="#f0d0b0" stroke="#333" stroke-width="2"/>
+  
+  <!-- Lower Back overlay (positioned correctly) -->
+  <rect x="170" y="250" width="60" height="70" rx="8" fill="#55efc4" stroke="#333" stroke-width="2" class="muscle-group" data-muscle-id="11"/>
+  
+  <!-- Glutes - Muscle Group ID: 13 -->
+  <ellipse cx="175" cy="360" rx="28" ry="35" fill="#e17055" stroke="#333" stroke-width="2" class="muscle-group" data-muscle-id="13"/>
+  <ellipse cx="225" cy="360" rx="28" ry="35" fill="#e17055" stroke="#333" stroke-width="2" class="muscle-group" data-muscle-id="13"/>
+  
+  <!-- Hamstrings - Muscle Group ID: 14 -->
+  <!-- Left Hamstring -->
+  <ellipse cx="175" cy="460" rx="22" ry="65" fill="#00b894" stroke="#333" stroke-width="2" class="muscle-group" data-muscle-id="14"/>
+  <!-- Right Hamstring -->
+  <ellipse cx="225" cy="460" rx="22" ry="65" fill="#00b894" stroke="#333" stroke-width="2" class="muscle-group" data-muscle-id="14"/>
+  
+  <!-- Lower Legs (back) -->
+  <ellipse cx="175" cy="570" rx="18" ry="60" fill="#f0d0b0" stroke="#333" stroke-width="2"/>
+  <ellipse cx="225" cy="570" rx="18" ry="60" fill="#f0d0b0" stroke="#333" stroke-width="2"/>
+  
+  <!-- Calves (back view - more prominent) -->
+  <ellipse cx="175" cy="560" rx="16" ry="45" fill="#fdcb6e" stroke="#333" stroke-width="2"/>
+  <ellipse cx="225" cy="560" rx="16" ry="45" fill="#fdcb6e" stroke="#333" stroke-width="2"/>
+  
+  <!-- Feet -->
+  <ellipse cx="175" cy="640" rx="20" ry="12" fill="#f0d0b0" stroke="#333" stroke-width="2"/>
+  <ellipse cx="225" cy="640" rx="20" ry="12" fill="#f0d0b0" stroke="#333" stroke-width="2"/>
+  
+  <!-- Labels -->
+  <text x="200" y="680" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">BACK VIEW</text>
+</svg>

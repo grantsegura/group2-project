@@ -1,0 +1,59 @@
+<svg width="400" height="700" viewBox="0 0 400 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Front View Body Diagram -->
+  
+  <!-- Head -->
+  <ellipse cx="200" cy="50" rx="35" ry="45" fill="#f0d0b0" stroke="#333" stroke-width="2"/>
+  
+  <!-- Neck -->
+  <rect x="185" y="90" width="30" height="30" fill="#f0d0b0" stroke="#333" stroke-width="2"/>
+  
+  <!-- Shoulders (Front/Side Deltoids) - Muscle Group ID: 2 -->
+  <ellipse cx="140" cy="135" rx="35" ry="25" fill="#ff6b6b" stroke="#333" stroke-width="2" class="muscle-group" data-muscle-id="2"/>
+  <ellipse cx="260" cy="135" rx="35" ry="25" fill="#ff6b6b" stroke="#333" stroke-width="2" class="muscle-group" data-muscle-id="2"/>
+  
+  <!-- Chest - Muscle Group ID: 1 -->
+  <path d="M 170 130 Q 200 140 230 130 L 240 200 Q 200 210 160 200 Z" fill="#ee5a6f" stroke="#333" stroke-width="2" class="muscle-group" data-muscle-id="1"/>
+  
+  <!-- Arms - Biceps (Muscle Group ID: 3) -->
+  <ellipse cx="120" cy="185" rx="18" ry="40" fill="#ff9999" stroke="#333" stroke-width="2" class="muscle-group" data-muscle-id="3"/>
+  <ellipse cx="280" cy="185" rx="18" ry="40" fill="#ff9999" stroke="#333" stroke-width="2" class="muscle-group" data-muscle-id="3"/>
+  
+  <!-- Forearms - Muscle Group ID: 4 -->
+  <ellipse cx="115" cy="250" rx="15" ry="35" fill="#ffb3b3" stroke="#333" stroke-width="2" class="muscle-group" data-muscle-id="4"/>
+  <ellipse cx="285" cy="250" rx="15" ry="35" fill="#ffb3b3" stroke="#333" stroke-width="2" class="muscle-group" data-muscle-id="4"/>
+  
+  <!-- Hands -->
+  <ellipse cx="112" cy="295" rx="12" ry="18" fill="#f0d0b0" stroke="#333" stroke-width="2"/>
+  <ellipse cx="288" cy="295" rx="12" ry="18" fill="#f0d0b0" stroke="#333" stroke-width="2"/>
+  
+  <!-- Torso/Core -->
+  <rect x="160" y="200" width="80" height="120" fill="#f0d0b0" stroke="#333" stroke-width="2"/>
+  
+  <!-- Abs - Muscle Group ID: 5 -->
+  <rect x="175" y="210" width="50" height="80" rx="5" fill="#4ecdc4" stroke="#333" stroke-width="2" class="muscle-group" data-muscle-id="5"/>
+  
+  <!-- Hip area -->
+  <path d="M 160 320 L 160 380 L 185 380 L 185 320 Z" fill="#f0d0b0" stroke="#333" stroke-width="2"/>
+  <path d="M 240 320 L 240 380 L 215 380 L 215 320 Z" fill="#f0d0b0" stroke="#333" stroke-width="2"/>
+  
+  <!-- Quadriceps - Muscle Group ID: 6 -->
+  <!-- Left Quad -->
+  <ellipse cx="175" cy="450" rx="22" ry="70" fill="#6c5ce7" stroke="#333" stroke-width="2" class="muscle-group" data-muscle-id="6"/>
+  <!-- Right Quad -->
+  <ellipse cx="225" cy="450" rx="22" ry="70" fill="#6c5ce7" stroke="#333" stroke-width="2" class="muscle-group" data-muscle-id="6"/>
+  
+  <!-- Lower Legs -->
+  <ellipse cx="175" cy="570" rx="18" ry="60" fill="#f0d0b0" stroke="#333" stroke-width="2"/>
+  <ellipse cx="225" cy="570" rx="18" ry="60" fill="#f0d0b0" stroke="#333" stroke-width="2"/>
+  
+  <!-- Calves - Muscle Group ID: 7 -->
+  <ellipse cx="175" cy="575" rx="14" ry="40" fill="#fdcb6e" stroke="#333" stroke-width="2" class="muscle-group" data-muscle-id="7"/>
+  <ellipse cx="225" cy="575" rx="14" ry="40" fill="#fdcb6e" stroke="#333" stroke-width="2" class="muscle-group" data-muscle-id="7"/>
+  
+  <!-- Feet -->
+  <ellipse cx="175" cy="640" rx="20" ry="12" fill="#f0d0b0" stroke="#333" stroke-width="2"/>
+  <ellipse cx="225" cy="640" rx="20" ry="12" fill="#f0d0b0" stroke="#333" stroke-width="2"/>
+  
+  <!-- Labels (optional, can be removed) -->
+  <text x="200" y="680" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">FRONT VIEW</text>
+</svg>
