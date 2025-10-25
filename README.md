@@ -1,14 +1,29 @@
-# Muscle Exercise Guide
+# FitMap - Interactive Muscle Exercise Guide 💪
 
 An interactive web application for exploring weightlifting exercises organized by muscle groups. Click on different muscle groups in the anatomical diagrams to see exercises targeting those areas.
+
+## 🚀 Quick Start for Team Members
+
+**New to the project?** Start here: **[TEAM_SETUP_GUIDE.md](TEAM_SETUP_GUIDE.md)**
+
+This comprehensive guide walks you through everything from installing prerequisites to running the project.
+
+---
+
+## ⚠️ Important: This Project Uses MySQL
+
+**NOT SQL Server!** Make sure you have MySQL installed before starting.
+
+---
 
 ## Features
 
 - **Interactive Muscle Diagrams**: Front and back view SVG diagrams with clickable muscle groups
 - **12 Muscle Groups**: Organized into major muscle categories
-- **Exercise Database**: Exercises categorized by muscle subcategories (e.g., Upper/Middle/Lower Chest)
+- **250+ Exercises**: 8-10 exercises per muscle subcategory (e.g., Upper/Middle/Lower Chest)
+- **Modern UI**: Purple gradient background with colorful, animated cards
 - **Responsive Design**: Built with Bootstrap 5 for mobile and desktop
-- **REST API Backend**: .NET 8 API with SQL Server database
+- **REST API Backend**: .NET 9 API with MySQL database
 
 ## Project Structure
 
